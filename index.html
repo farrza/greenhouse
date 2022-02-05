@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Greenhouse IOT Monitoring</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="myForm">
+      <h3>Greenhouse IOT Growth Parameter Tracking</h3>
+      <form>
+        <div class="sensor">
+          <label for="lightIntensitySensor">Light Intensity</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="lightIntensitySensor"
+            />
+            <span id="lightIntensityFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="airTemperatureSensor">Air Temperature</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="airTemperatureSensor"
+            />
+            <span id="airTemperatureFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="soilTemperatureSensor">Soil Temperature</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="soilTemperatureSensor"
+            />
+            <span id="soilTemperatureFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="airMoistureSensor">Air Moisture</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="airMoistureSensor"
+            />
+            <span id="airMoistureFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="soilMoistureSensor">Soil Moisture</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="soilMoistureSensor"
+            />
+            <span id="soilMoistureFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="atmosphericPressureSensor">Atmospheric Pressure</label
+          ><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="atmosphericPressureSensor"
+            />
+            <span id="atmosphericPressureFormValue">50</span>
+          </div>
+        </div>
+        <div class="sensor">
+          <label for="altitudeSensor">Altitude</label><br />
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="altitudeSensor"
+            />
+            <span id="altitudeFormValue">50</span>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

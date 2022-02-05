@@ -1,0 +1,14 @@
+html {
+  background: url(images/greenhouse.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#myForm {
+  margin: 0 auto;
+  background-color: #ecf0f1;
+  text-align: center;
+  width: 25%;
+}
